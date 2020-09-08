@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helium Web Site</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <a class="gotopbtn" href=""><i class="fa fa-arrow-up"></i></a>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <a href=""><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <i class="fa fa-bars"></i>
+                <ul>
+                    <li><a class="aktif" href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Team</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var nav = document.querySelector("nav");
+            nav.classList.toggle("sticky",window.scrollY > 0);
+        })
+    </script>
+
+    <section class="banner">
+        <div class="container">
+            <h1>Helium - Bootstrap 4 UI Kit</h1>
+            <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br>
+            Curabitur ultricies nisi Nam eget dui. Etiam rhoncus</p>
+            <div class="buttons">
+                <a class="button banner-btn-download" href="">Download</a>
+                <a class="button banner-btn-learnmore" href="">Learn More</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="first-section">
+        <div class="container">
+                <div class="card">
+                    <img src="img/img1.png" alt="">
+                    <p class="medium-title">About Title</p>
+                    <p class="text">Quisque sit amet libero purus. Nulla a<br> dignissim quam. In hac habitasse<br> platea dictumst.</p>
+                </div>
+                <div class="card">
+                    <img src="img/img2.png" alt="">
+                    <p class="medium-title">About Title</p>
+                    <p class="text">Quisque sit amet libero purus. Nulla a<br> dignissim quam. In hac habitasse<br> platea dictumst.</p>
+                </div>
+                <div class="card">
+                    <img src="img/img3.png" alt="">
+                    <p class="medium-title">About Title</p>
+                    <p class="text">Quisque sit amet libero purus. Nulla a<br> dignissim quam. In hac habitasse<br> platea dictumst.</p>
+                </div>
+                <div class="card">
+                    <img src="img/img4.png" alt="">
+                    <p class="medium-title">About Title</p>
+                    <p class="text">Quisque sit amet libero purus.Nulla a<br> dignissim quam. In hac habitasse<br> platea dictumst.</p>
+                </div>
+        </div>
+    </section>
+   
+    <section class="second-section">
+        <div class="container">
+            <p class="big-title">Our Services</p>
+            <div class="content">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa fa-cogs"></i>
+                    </div>
+                    <div class="card-info">
+                        <p class="medium-title">Easy to Customize</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto officiis consequuntur vero error excepturi.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa fa-cubes"></i>
+                    </div>
+                    <div class="card-info">
+                        <p class="medium-title">100+ Components</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto officiis consequuntur vero error excepturi.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa fa-tachometer"></i>
+                    </div>
+                    <div class="card-info">
+                        <p class="medium-title">Super Fast</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto officiis consequuntur vero error excepturi.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa fa-check"></i>
+                    </div>
+                    <div class="card-info">
+                        <p class="medium-title">Clean Design</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto officiis consequuntur vero error excepturi.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa fa-flash"></i>
+                    </div>
+                    <div class="card-info">
+                        <p class="medium-title">Bootstrap 4 UI Kit</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto officiis consequuntur vero error excepturi.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa fa-hand-pointer-o"></i>
+                    </div>
+                    <div class="card-info">
+                        <p class="medium-title">Advanced Features</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto officiis consequuntur vero error excepturi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="third-section">
+        <div class="container">
+            <p class="big-title">Portfolio</p>
+            <div class="buttons">
+                <a class="aktif" href="">All</a>
+                <a href="">Branding</a>
+                <a href="">Marketing</a>
+                <a href="">Planning</a>
+                <a href="">Research</a>
+            </div>
+            <div class="card-content">
+                <div class="card">
+                    <img src="img/pf1.jpg" alt="">
+                    <div class="card-item">
+                        <div class="icons animation-icons">
+                            <a href=""><i class="fa fa-link"></i></a>
+                            <a href=""><i class="fa fa-heart"></i></a>
+                        </div>
+                        <p class="medium-title animation-title">TITLE HERE</p>
+                        <p class="text animation-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel quisquam.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/pf2.jpg" alt="">
+                    <div class="card-item">
+                        <div class="icons animation-icons">
+                            <a href=""><i class="fa fa-link"></i></a>
+                            <a href=""><i class="fa fa-heart"></i></a>
+                        </div>
+                        <p class="medium-title animation-title">TITLE HERE</p>
+                        <p class="text animation-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel quisquam.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/pf3.jpg" alt="">
+                    <div class="card-item">
+                        <div class="icons animation-icons">
+                            <a href=""><i class="fa fa-link"></i></a>
+                            <a href=""><i class="fa fa-heart"></i></a>
+                        </div>
+                        <p class="medium-title animation-title">TITLE HERE</p>
+                        <p class="text animation-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel quisquam.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/pf4.jpg" alt="">
+                    <div class="card-item">
+                        <div class="icons animation-icons">
+                            <a href=""><i class="fa fa-link"></i></a>
+                            <a href=""><i class="fa fa-heart"></i></a>
+                        </div>
+                        <p class="medium-title animation-title">TITLE HERE</p>
+                        <p class="text animation-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel quisquam.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/pf5.jpg" alt="">
+                    <div class="card-item">
+                        <div class="icons animation-icons">
+                            <a href=""><i class="fa fa-link"></i></a>
+                            <a href=""><i class="fa fa-heart"></i></a>
+                        </div>
+                        <p class="medium-title animation-title">TITLE HERE</p>
+                        <p class="text animation-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel quisquam.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/pf6.jpg" alt="">
+                    <div class="card-item">
+                        <div class="icons animation-icons">
+                            <a href=""><i class="fa fa-link"></i></a>
+                            <a href=""><i class="fa fa-heart"></i></a>
+                        </div>
+                        <p class="medium-title animation-title">TITLE HERE</p>
+                        <p class="text animation-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel quisquam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fourth-section">
+        <div class="container">
+            <p class="big-title">Features</p>
+            <div class="card-container">
+                <div class="card">
+                    <div class="icons">
+                        <i class="fa fa-bolt"></i>
+                    </div>
+                    <div class="card-info">
+                        <p class="medium-title">BOOTSTRAP 4</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icons">
+                        <i class="fa fa-diamond"></i>
+                    </div>
+                    <div class="card-info">
+                        <p class="medium-title">CLEAN DESIGN</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icons">
+                        <i class="fa fa-cubes"></i>
+                    </div>
+                    <div class="card-info">
+                        <p class="medium-title">100+ COMPONENTS</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icons">
+                        <i class="fa fa-cogs"></i>
+                    </div>
+                    <div class="card-info">
+                        <p class="medium-title">EASY TO CUSTOMIZE</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icons">
+                        <i class="fa fa-check"></i>
+                    </div>
+                    <div class="card-info">
+                        <p class="medium-title">PIXEL PERFECT</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icons">
+                        <i class="fa fa-cloud"></i>
+                    </div>
+                    <div class="card-info">
+                        <p class="medium-title">CLOUD BACKUP</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fifth-section">
+        <div class="container">
+            <div class="card">
+                <i class="fa fa-download"></i>
+                <p class="big-title">561</p>
+                <span class="card-span"></span>
+                <p class="text">Downloads</p>
+            </div>
+            <div class="card">
+                <i class="fa fa-user"></i>
+                <p class="big-title">950</p>
+                <span class="card-span"></span>
+                <p class="text">Developers</p>
+            </div>
+            <div class="card">
+                <i class="fa fa-desktop"></i>
+                <p class="big-title">978</p>
+                <span class="card-span"></span>
+                <p class="text">Lines of code written</p>
+            </div>
+            <div class="card">
+                <i class="fa fa-coffee"></i>
+                <p class="big-title">1700</p>
+                <span class="card-span"></span>
+                <p class="text">Cups of coffee consumed</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sixth-section">
+        <div class="container">
+            <p class="big-title">Our Team</p>
+            <div class="card-container">
+                <div class="card">
+                    <img src="img/team-05.jpg" alt="">
+                    <div class="item">
+                        <p class="medium-title">Melody Clark</p>
+                        <p class="text">UX Specialist</p>
+                        <span></span>
+                        <div class="social-media">
+                            <a class="face" href=""><i class="fa fa-facebook"></i></a>
+                            <a class="twitter" href=""><i class="fa fa-twitter"></i></a>
+                            <a class="insta" href=""><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/team-06.jpg" alt="">
+                    <div class="item">
+                        <p class="medium-title">Danny Burton</p>
+                        <p class="text">Senior Designer</p>
+                        <span></span>
+                        <div class="social-media">
+                            <a class="face" href=""><i class="fa fa-facebook"></i></a>
+                            <a class="twitter" href=""><i class="fa fa-twitter"></i></a>
+                            <a class="insta" href=""><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/team-07.jpg" alt="">
+                    <div class="item">
+                        <p class="medium-title">Elizabeth Jones</p>
+                        <p class="text">Art Director</p>
+                        <span></span>
+                        <div class="social-media">
+                            <a class="face" href=""><i class="fa fa-facebook"></i></a>
+                            <a class="twitter" href=""><i class="fa fa-twitter"></i></a>
+                            <a class="insta" href=""><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="seventh-section">
+        <div class="container">
+            <p class="big-title">Pricing Table</p>
+            <div class="card-content">
+                <div class="card">
+                    <div class="title">
+                        <p class="medium-title">Basic</p>
+                    </div>
+                    <div class="price">
+                        <p class="sub-price">$ 10</p>
+                        <p class="time">per month</p>
+                    </div>
+                    <div class="feature">
+                        <ul>
+                            <li><i class="fa fa-check"></i>2GB Disk Space</li>
+                            <li><i class="fa fa-check"></i>3 Sub Domains</li>
+                            <li><i class="fa fa-check"></i>12 Databes</li>
+                            <li><i class="fa fa-check"></i>Unlimited Users</li>
+                        </ul>
+                    </div>
+                    <div class="seventh-button"><a href="">GET STARTED</a></div>
+                </div>
+                <div class="card different-card">
+                    <div class="title">
+                        <p class="medium-title .seventh-different-title">Basic</p>
+                    </div>
+                    <div class="price">
+                        <p class="sub-price">$ 69</p>
+                        <p class="time">per month</p>
+                    </div>
+                    <div class="feature">
+                        <ul>
+                            <li><i class="fa fa-check"></i>10GB Disk Space</li>
+                            <li><i class="fa fa-check"></i>5 Sub Domains</li>
+                            <li><i class="fa fa-check"></i>12 Databes</li>
+                            <li><i class="fa fa-check"></i>Unlimited Users</li>
+                        </ul>
+                    </div>
+                    <div class="seventh-button"><a href="">GET STARTED</a></div>
+                </div>
+                <div class="card">
+                    <div class="title">
+                        <p class="medium-title">Basic</p>
+                    </div>
+                    <div class="price">
+                        <p class="sub-price">$ 79</p>
+                        <p class="time">per month</p>
+                    </div>
+                    <div class="feature">
+                        <ul>
+                            <li><i class="fa fa-check"></i>50GB Disk Space</li>
+                            <li><i class="fa fa-check"></i>20 Sub Domains</li>
+                            <li><i class="fa fa-check"></i>36 Databes</li>
+                            <li><i class="fa fa-check"></i>Unlimited Users</li>
+                        </ul>
+                    </div>
+                    <div class="seventh-button"><a href="">GET STARTED</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="eighth-section">
+        <div class="container">
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ipsam, non ut molestiae rerum praesentium repellat debitis iure reiciendis, eius culpa beatae commodi facere ad numquam. Quisquam dignissimos similique sunt iure fugit, omnis vel cupiditate repellendus magni nihil molestiae quam, delectus</p>
+            <div class="image">
+                <img src="img/last.jpg" alt="">
+            </div>
+            <div class="info">
+                <i class="fa fa-user"></i><p>Arman </p><a href="">Uldeck</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="last-section">
+        <div class="container">
+            <p class="big-title">Contact Us</p>
+            <div class="content">
+                <div class="left">
+                    <p class="medium-title">Get in touch</p>
+                    <div class="name-mail-div">
+                        <div class="form-row">
+                            <i class="contact-icon fa fa-user"></i>
+                            <input type="text" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-row">
+                            <i class="contact-icon fa fa-envelope-o"></i>
+                            <input type="email" name="" id="" placeholder="E-mail" required>
+                        </div>
+                        <div class="form-row">
+                            <i class="contact-icon fa fa-pencil-square-o"></i>
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                    </div>
+                    <div class="textarea-div">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <a href="" class="button">Send Message</a>
+                </div>
+                <div class="right">
+                    <p class="medium-title">Contact Information</p>
+                    <div class="text">
+                        <p class="adress">Level 13, 2 Elizabeth St, Melbourne,</p>
+                        <div class="tel">
+                            <a href="">1800 452 308</a>
+                            <a href="">+61(8) 8234 3555</a>
+                        </div>
+                        <div class="mail"><a href="">admin@uideck.com</a><a href="">www.uideck.com</a></div>
+                        <div class="social-media">
+                            <ul>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="top">
+            <div class="container">
+                <div class="card first-card">
+                    <p class="title">About Us</p>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis veritatis eius porro modi hic. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="social-media">
+                        <a href=""><i class="fa fa-facebook icon-round"></i></a>
+                        <a href=""><i class="fa fa-twitter icon-round"></i></a>
+                        <a href=""><i class="fa fa-linkedin icon-round"></i></a>
+                        <a href=""><i class="fa fa-google-plus icon-round"></i></a>
+                    </div>
+                </div>
+                <div class="card second-card">
+                    <p class="title">Links</p>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Works</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="card third-card">
+                    <p class="title">GALLERY</p>
+                    <div class="images">
+                        <div class="images-card">
+                            <img src="img/pf1.jpg" alt="">
+                        </div>
+                        <div class="images-card">
+                            <img src="img/pf2.jpg" alt="">
+                        </div>
+                        <div class="images-card">
+                            <img src="img/pf3.jpg" alt="">
+                        </div>
+                        <div class="images-card">
+                            <img src="img/pf4.jpg" alt="">
+                        </div>
+                        <div class="images-card">
+                            <img src="img/pf5.jpg" alt="">
+                        </div>
+                        <div class="images-card">
+                            <img src="img/pf6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card fourth-card">
+                    <p class="title">SUBSCRIBE US</p>
+                    <div class="form-row">
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="form-row">
+                        <input type="email"placeholder="Enter your email">
+                    </div>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p class="text">All copyrights reserved © 2018 - Designed & Developed by</p>
+                    <a href="">Uldeck</a>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Sitemap</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms of services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

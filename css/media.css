@@ -1,0 +1,237 @@
+@media(max-width:1020px){
+
+    nav.sticky{
+        padding: 5px 20px;
+    }
+
+    nav .nav-container .menu ul a{
+        font-size: 11px;
+        padding: 10px 15px;
+    }
+
+    nav .nav-container .logo{
+        width: 100px;
+    }
+
+    .first-section {
+        height: auto;
+    }
+
+    .first-section .container .card{
+        width:50%
+    }
+
+    .second-section .container .content .card{
+        width: 50%;
+    }
+
+    .third-section .container{
+        width: 768px;
+    }
+
+    .third-section .container .card-content .card{
+        width: 50%;
+    }
+
+    .third-section .container .card-content .card .card-item{
+        width: 90%;  
+    }
+
+    .fourth-section .container .card-container .card{
+        width: 50%;
+    }
+
+    .fifth-section .container .card{
+        width: 50%;
+        margin: 40px 0;
+    }
+
+    .seventh-section .container .card-content .card{
+        width: calc( 50% - 20px );
+    }
+
+    .last-section .container{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .last-section .container .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+    }
+
+    .last-section .container .content .right{
+        margin-left: 20px;
+    }
+
+    footer .top .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    footer .top .container .card{
+        width: calc(50% - 40px);
+        margin: 20px;
+    }
+
+    footer .bottom .container .copyright .text{
+        font-size: 11px;
+    }
+
+    footer .bottom .container .copyright a{
+        font-size: 11;
+    }
+
+    footer .bottom .container .links ul a{
+        font-size: 11px;
+    }
+
+ }
+
+
+@media (max-width: 768px){
+
+    nav .nav-container .logo{
+        margin-left: 100px;
+    }
+
+    nav .nav-container .menu i{
+        visibility: visible;
+    }
+
+    nav .nav-container .menu ul{
+        display: none;
+    }
+
+    .first-section .container .card{
+        width:100%
+    }
+
+    .second-section .container .content .card{
+        width: 100%;
+    }
+
+    .third-section .container .card-content{
+        width: 575px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .third-section .container .card-content .card{
+        width: 70%;
+    }
+
+    .third-section .container .card-content .card .card-item{
+        width: 90%;  
+    }
+
+    .third-section .container .buttons{
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        padding-left: 30px;
+    }
+
+    .third-section .container .buttons a{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .fourth-section .container .card-container .card{
+        width: 100%;
+    }
+
+    .fifth-section .container .card{
+        width: 100%;
+    }
+
+    .seventh-section .container .card-content .card{
+        width: calc( 100% - 20px );
+    }
+
+    .eighth-section .container .text{
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .last-section .container{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .last-section .container .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last-section .container .content .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        padding: 0px 10px;
+    }
+
+    .last-section .container .content .left .name-mail-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last-section .container .content .left .name-mail-div .form-row{
+        width: 100%;
+    }
+
+    .last-section .container .content .left .textarea-div{
+        width: 100%;
+    }
+
+    .last-section .container .content .left .name-mail-div .form-row input[type="text"],
+.last-section .container .content .left .name-mail-div .form-row input[type="email"],
+.last-section .container .content .left .textarea-div textarea{
+    width: 100%;
+}
+
+.last-section .container .content .right{
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+footer .top .container .card{
+    width: 100%;
+}
+
+.third-card .images{
+    width: 80%;
+}
+
+.third-card .images .images-card{
+    width: 33.3%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.third-card .images .images-card img{
+    width: 100%;
+}
+
+footer .bottom .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+}
