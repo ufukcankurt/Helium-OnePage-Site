@@ -1,4 +1,4 @@
-# HELİUM - ONEPAGESİTE 
+# HELIUM - ONEPAGESITE 
 
 #### Original version of the site : [ Helium - Website] (https://preview.uideck.com/items/helium-1.1/example-template/index.html)
 #### Link of the site I made : [ My Page - Helium ] (https://helium-one-page-site.vercel.app/)
