@@ -23,5 +23,6 @@
 
 <br>
 
-![helium_ourteam (1)](https://user-images.githubusercontent.com/46025001/92582286-711f0d80-f299-11ea-8154-5432b8b541a1.gif)
+![helium_ourteam (2)](https://user-images.githubusercontent.com/46025001/92685811-26f16700-f341-11ea-97c9-a5b568125438.gif)
+
 
